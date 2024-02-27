@@ -200,6 +200,7 @@ h1{
 }
 .button-section-2:hover{ 
     background-color: rgb(210, 178, 118);
+    cursor: pointer;
 }
 /* Section-3  */
 
