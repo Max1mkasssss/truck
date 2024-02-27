@@ -16,7 +16,6 @@ a{
     padding: 0;
     margin: 0 auto;
     width: 1110px;
-    outline: 1px solid red;
 }
 .flex{
     display: flex;
@@ -249,4 +248,123 @@ h1{
     letter-spacing: 5%;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+/* Section-4  */
+
+.section-4{ 
+    background: rgb(47, 52, 58);
+    padding-top: 120px;
+    padding-bottom: 220px;
+}
+.wrapper-section-4{ 
+    justify-content: space-around;
+}
+.section-4-text-wrapper{ 
+    width: 445px;
+}
+.section-4-text-wrapper p{ 
+    color: rgb(255, 255, 255);
+    font-family: "Roboto"; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-4-text-wrapper h2{ 
+    color: rgb(255, 255, 255);
+    font-family: "Roboto"; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.list-section-4{ 
+    flex-wrap: wrap;
+}
+.list-section-4-item{ 
+    width: 200px;
+    height: 160px;
+    box-sizing: border-box;
+    border: 0.25px solid rgb(200, 163, 95);
+    background: rgb(255, 255, 255);
+}
+.list-section-4-item h3{    
+    color: rgb(47, 52, 58);
+    font-family: "Roboto"; 
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: 20px;
+    margin: 0;
+}
+.list-section-4-item h4{ 
+    color: rgb(0, 0, 0);
+    font-family: "Roboto"; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 5%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.list-section-4-item p{ 
+    color: rgb(0, 0, 0);
+    font-family: "Roboto"; 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* Section 5 */
+
+.map{ 
+    background: url(img/map.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer  */
+
+.footer{ 
+    background: rgb(200, 163, 95);
+    height: 161px;
+    padding-top: 60px;
+}
+.footer-wrapper{ 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-logotype{ 
+    width: 160px;
+    height: 46px;
+}
+.footer-list-item, .footer-list-2-item{ 
+    margin-top: 10px;
+    color: rgb(242, 242, 242);
+    font-family: "Roboto"; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-list-item:hover, .footer-list-2-item:hover{ 
+    color: rgb(47, 52, 58);
+    cursor: pointer;
 }
