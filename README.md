@@ -33,7 +33,7 @@
 
 <h1 align="center"> ℹ️ Solo Project  </h1>
 <h2 align="center"> 👨‍💻 By Max1mkasss. &copy; 👩‍💻 </h2>
-<a align="center" href="https://github.com/Max1mkasssss">![🎞 GitHub](https://img.shields.io/badge/-Max1mkasss-05122A?style=flat&logo=github)</a>
+<a align="center" href="https://github.com/Max1mkasssss">🎞 GitHub <img src="https://img.shields.io/badge/-Max1mkasss-05122A?style=flat&logo=github"></a>
 
 
 ### При поддержке
